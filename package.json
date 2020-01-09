@@ -1,0 +1,36 @@
+{
+  "name": "js-urai",
+  "version": "0.0.1",
+  "description": "Reformat minified JavaScript code",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run unit-tests && npm run check-format",
+    "unit-tests": "mocha tests/",
+    "check-format": "prettier --check \"**/*.js\"",
+    "format-code": "prettier --write \"**/*.js\"",
+    "dodol": "./index.js lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperjumptech/js-urai.git"
+  },
+  "author": "Ariya Hidayat <ariya@hyperjump.tech>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hyperjumptech/js-urai/issues"
+  },
+  "homepage": "https://github.com/hyperjumptech/js-urai#readme",
+  "dependencies": {
+    "astring": "~1.4.3",
+    "esprima": "~4.0.1",
+    "glob": "~7.1.6"
+  },
+  "devDependencies": {
+    "mocha": "~7.0.0",
+    "prettier": "~1.19.1"
+  },
+  "prettier": {
+    "tabWidth": 4,
+    "singleQuote": true
+  }
+}
