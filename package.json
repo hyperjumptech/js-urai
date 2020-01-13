@@ -1,5 +1,5 @@
 {
-  "name": "js-urai",
+  "name": "@hyperjumptech/js-urai",
   "version": "0.0.1",
   "description": "Reformat minified JavaScript code",
   "main": "index.js",
