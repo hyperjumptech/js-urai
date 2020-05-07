@@ -15,6 +15,12 @@
     "type": "git",
     "url": "git+https://github.com/hyperjumptech/js-urai.git"
   },
+  "files": [
+    "lib/index.js",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
   "author": "Ariya Hidayat <ariya@hyperjump.tech>",
   "license": "Apache-2.0",
   "bugs": {
