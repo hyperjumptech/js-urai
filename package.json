@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Reformat minified JavaScript code",
   "main": "index.js",
+  "bin": "./index.js",
   "scripts": {
     "test": "npm run unit-tests && npm run check-format",
     "unit-tests": "mocha tests/",
