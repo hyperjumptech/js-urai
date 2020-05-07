@@ -1,6 +1,6 @@
 {
   "name": "@hyperjumptech/js-urai",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Reformat minified JavaScript code",
   "main": "index.js",
   "bin": "./index.js",
