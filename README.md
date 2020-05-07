@@ -5,6 +5,8 @@
 
 This tool reformats minified JavaScript code.
 
+**WARNING**: This will rewrite your existing files. Back up accordingly!
+
 Usage:
 ```
 npx @hyperjumptech/js-urai <glob-pattern>
